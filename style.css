@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html{
+font-size: 16px;
+color: azure;
+font-family: 'Bebas Neue', cursive;
+}
+:root{
+    --padding:8%;
+}
+body{
+    background-color: #001219;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+.home{
+    background-image:url('./imges/R\ \(1\).jpg') ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+   background-size: 140%;
+   background-position: bottom;
+   height: 100vh;
+
+}
+.header{
+display: flex;
+background-color:#044350 ;
+overflow: auto;
+padding: 25px 5% ;
+justify-content: space-between;
+align-items: center;
+padding:25px 5% ;
+}
+li, a {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+    font-size:16px ;
+    color: azure;
+    text-decoration: none;
+}
+.logo{
+    width: 70px;
+    height: 70px; 
+cursor: pointer;
+}
+.navigation{
+list-style: none;
+}
+.navigation li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navigation li a {
+    transition: all 0.3s ease 0s;
+    vertical-align: middle;
+    font-size: 22px;
+}
+.navigation li a:hover{
+color: #0088a9;
+}
+.logo_container{
+color: azure;
+font-size:10px ;
+display: flex;
+margin-right: auto;
+justify-content: space-between;
+align-items: center;
+}
+.logo_container h1{
+    font-family: 'Bebas Neue', cursive;
+    cursor: pointer;
+    font-size: 25px;
+}
+span{
+    color: darkred;
+}
+
+
+.contant{
+flex-grow: 1;
+padding:0 var(--padding);
+font-style: italic;
+align-items: center;
+
+
+}
+.container_text{
+font-size: 2rem;
+margin: 1.5rem 0;
+position: relative;
+font-family: 'Bebas Neue', cursive;
+}
+
+.about{
+background-color: #141414;
+padding:1%;
+display: flex;
+justify-content:space-around ;
+}
+
+.container_imges img {
+
+width: 40%;
+
+}
+
+p{
+    color: rgb(251, 255, 255);
+    letter-spacing: 1px;
+    line-height: 1.8rem;
+    font-size: 1rem;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+
+}
+.about p{
+    font: sans-serif;
+    color:azure;
+    letter-spacing: 1px;
+    line-height: 1.8rem;
+    font-size: 1rem;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.servies{
+background-color: #031013;
+padding: var(--padding);
+
+}
+
+.servies h1{
+    font-size: 60px;
+}
+.text_center{
+    text-align: center;
+}
+
+.card{
+    width: 350px; 
+    height: 350px;
+    background-color: #141414;
+    border-radius: 20px;
+    padding: 1.3rem  2rem;
+    cursor: pointer;
+    align-items: center;
+
+}
+.card2{
+    width: 350px; 
+    height: 350px;
+    background-color:rgb(59, 59, 136);
+    border-radius: 20px;
+    padding: 2rem  5rem;
+    cursor: pointer;
+    align-items: center;
+}
+.BOX2{
+    display: flex;
+    justify-content: space-between;
+}
+.BOX{
+display: flex;
+justify-content: space-between;
+
+}
+.card i{
+font-size: 3rem;
+text-align: center;
+color: rgb(123, 123, 197);
+margin: 2rem;
+}
+h5{
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.BUTTON{
+    background-color: rgb(123, 123, 197);
+color: rgb(20, 20, 20);
+text-decoration: none;
+font-weight: bold;
+padding: 0.81rem 1.87rem ;
+border-radius: 30px;
+align-items: center;
+font-family: 'Bebas Neue', cursive;
+
+}
+
+.BUTTON:hover{
+    background-color: transparent;
+border: 2px solid rgb(123, 123, 197) ;
+}
+.BTN{
+    background-color: rgb(123, 123, 197);
+    color: rgb(20, 20, 20);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.81rem 1.87rem ;
+    border-radius: 30px;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+}
+.BTN:hover{
+    background-color: transparent;
+    border: 2px solid rgb(123, 123, 197) ;
+}
+
+
+.contact_us{
+    background-color: #141414;
+    padding: 5%;
+    display: flex;
+    justify-content:space-around ;
+
+}
+
+
+
+
+.footer{
+    text-align: center;
+    padding: 3px;
+    background-color: #044350;
+    color: azure;
+    display: block;
+    }
+
+    .social{
+        margin-top: 1.5rem;
+        }
+        .social img{
+        margin-right: 2rem;
+        width: 2.5rem;
+        transition: 0.4s;
+        }
+        .social img:hover{
+            transform: scale(1.2);
+        }
